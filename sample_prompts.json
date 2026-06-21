@@ -1,0 +1,46 @@
+{
+  "prompts": [
+    {
+      "id": "explain-concept",
+      "category": "Learning",
+      "title": "Explain a concept",
+      "prompt": "Explain quantum computing in simple terms that a high school student would understand.",
+      "system_prompt": "You are a patient teacher who explains complex topics using clear analogies."
+    },
+    {
+      "id": "code-review",
+      "category": "Coding",
+      "title": "Review my code",
+      "prompt": "Review the following Python function for bugs, performance issues, and security concerns:\n\ndef get_user(db, user_id):\n    query = f\"SELECT * FROM users WHERE id = {user_id}\"\n    return db.execute(query).fetchone()",
+      "system_prompt": "You are an expert software engineer focused on code quality and security."
+    },
+    {
+      "id": "summarize-text",
+      "category": "Productivity",
+      "title": "Summarize text",
+      "prompt": "Please summarize the key points of the following article in 3-5 bullet points:\n\n[Paste your article text here]",
+      "system_prompt": "You are a concise summarizer who captures the most important ideas."
+    },
+    {
+      "id": "write-email",
+      "category": "Writing",
+      "title": "Write a professional email",
+      "prompt": "Write a professional email to my manager requesting approval for a conference attendance budget of $1,500 for a 3-day AI conference next month.",
+      "system_prompt": "You are a professional business writer who crafts clear, concise communications."
+    },
+    {
+      "id": "debug-error",
+      "category": "Coding",
+      "title": "Debug an error",
+      "prompt": "I'm getting this Python error: 'AttributeError: NoneType object has no attribute split'. What are the most common causes and how do I fix it?",
+      "system_prompt": "You are a debugging expert who explains errors clearly and provides actionable solutions."
+    },
+    {
+      "id": "brainstorm-ideas",
+      "category": "Creativity",
+      "title": "Brainstorm ideas",
+      "prompt": "I'm building a mobile app for tracking personal fitness goals. Give me 10 unique feature ideas that would differentiate it from existing apps.",
+      "system_prompt": "You are a creative product designer full of innovative ideas."
+    }
+  ]
+}
